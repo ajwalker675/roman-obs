@@ -3,3 +3,4 @@ The file, "Roman Observations" contains all of the code to create a pandas dataf
 The file, "Y106 Data Creation" has the code necessary to make the pandas dataframe for the Y filter. A separate method was needed due to the nature of the original simulation data having duplicate pointing values, MJD values, and date values.
 The file, "Make Images for Animation", contains the code needed to make the healpy plots that show the mapping of the SCAs in the sky. The file includes two different methods for creating the images, one that will show the overall coverage after observing and another that will show the day by day movements that can be used to make an animation. 
 The file, "Animation", includes the code to make the day by day images into an animation
+The file, "Make Graph," includes the code to make a graph of RA coordinate vs number of SCAs. The graph gives the number of SCAs at a certain point in the final exposure map.
